@@ -1,0 +1,14 @@
+2025-01-22 16:06:46,400:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-22 16:06:46,401:INFO:[33mPress CTRL+C to quit[0m
+2025-01-22 16:06:46,401:INFO: * Restarting with stat
+2025-01-22 16:06:46,636:WARNING: * Debugger is active!
+2025-01-22 16:06:46,673:INFO: * Debugger PIN: 112-243-880
+2025-01-22 16:07:39,928:INFO:Recognizing faces and marking attendance...
+2025-01-22 16:07:39,928:INFO:4.11.0
+2025-01-22 16:07:39,928:ERROR:An error occurred: module 'cv2.face' has no attribute 'LBPHFaceRecognizer_create'
+2025-01-22 16:07:39,929:INFO:127.0.0.1 - - [22/Jan/2025 16:07:39] "[35m[1mPOST /recognize_faces HTTP/1.1[0m" 500 -
+2025-01-22 16:09:02,614:INFO:Recognizing faces and marking attendance...
+2025-01-22 16:09:02,614:INFO:4.11.0
+2025-01-22 16:09:02,614:ERROR:An error occurred: module 'cv2.face' has no attribute 'LBPHFaceRecognizer_create'
+2025-01-22 16:09:02,614:INFO:127.0.0.1 - - [22/Jan/2025 16:09:02] "[35m[1mPOST /recognize_faces HTTP/1.1[0m" 500 -
